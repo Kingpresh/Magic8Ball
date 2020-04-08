@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
                 eightball_image.setImageResource(ballArray[number]);
 
                 Log.d("8 ball","Random number is " + number);
-
             }
         });
 
