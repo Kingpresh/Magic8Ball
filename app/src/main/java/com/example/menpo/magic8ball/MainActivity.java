@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button rollButton = findViewById(R.id.button);
 
-        final ImageView image = findViewById(R.id.imageView);
+        final ImageView eightball_image = findViewById(R.id.imageView);
 
         final int[] ballArray = {
                 R.drawable.ball1,
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
                 Random randomNumber = new Random();
                 int number = randomNumber.nextInt(5);
 
-                image.setImageResource(ballArray[number]);
+                eightball_image.setImageResource(ballArray[number]);
 
                 Log.d("8 ball","Random number is " + number);
 
