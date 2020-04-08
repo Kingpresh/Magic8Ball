@@ -19,7 +19,9 @@
         android:layout_marginBottom="16dp"
         android:background="@color/colorPrimaryDark"
         android:text="@string/button_text"
-        android:textColor="@android:color/background_light" />
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/imageView"
